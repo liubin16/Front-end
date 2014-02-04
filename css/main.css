@@ -298,3 +298,7 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+footer {
+    border:1px solid green;
+}
