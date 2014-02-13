@@ -21,6 +21,9 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-image: url(../img/bg.png);
+    height: 2000px;
+    
 }
 
 /*
@@ -238,6 +241,7 @@ textarea {
         color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
+        
     }
 
     a,
@@ -297,4 +301,238 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    width: 960px;
+    height: 74px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgb(32,35,37);
+    -webkit-border-bottom-right-radius:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-radius-bottomright:10px;
+    -moz-border-radius-bottomleft:10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+
+
+header h1 {
+    color: rgb(230, 227, 187);
+    vertical-align: middle;
+    line-height: 74px;
+    width: 159px;
+    height: 74px;
+    border-right: 2px solid rgb(123,122,109);
+    padding: 0 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+li {
+    display: inline;
+    color: rgb(230, 227, 187);
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+li:hover{
+    color: rgb(142, 68, 35);
+    cursor: pointer;
+}
+
+ul {
+    position: absolute;
+    left: 159px;
+    top: 10px;
+    
+}
+
+
+form {
+    position: absolute;
+    right: 28px;
+    top: 25px;
+}
+
+
+
+
+
+.ButtonSingOut {
+    background-image: url(../img/singout.png);
+    font-size: 14px;
+    width: 108px;
+    height: 27px;
+    border: 0;
+    color: rgb(230, 227, 187);
+    
+}
+
+.LoginWelcome {
+    background-image: url(../img/Welcom.png);
+    border: 0;
+    color: rgb(63, 63, 63);
+    width: 178px;
+    height: 27px;
+    
+    
+}
+
+.logo {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.Featured {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+    height: 240px;
+    background-color: rgb(36, 39, 41);    
+    -webkit-border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-topleft:10px;
+    -moz-border-radius-topright:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.Featured div{
+    position:absolute;
+    width: 430px;
+    height: 98px;    
+    top: 42px;    
+}
+.Featured div > img{
+    margin-left: 20px;
+}
+.Featured div + div{
+    position: absolute;
+    width: 501px;
+    height: 98px;
+    top: 42px;
+    right: 10px;
+}
+.Featured div + div > span{
+    font-size: 18px;
+    color: #8e4423;
+    line-height: 0.1em;
+}
+.Featured div + div > span > img{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.Featured div + div span > span{
+    font-size: 12px;
+    color: #646363;    
+}
+.Featured div + div > p{
+    font-size: 13px;
+    line-height: 1em;
+    color: #7b7a6d;
+}
+.Featured div + div + div{
+    width: 940px;
+    height: 29px;
+    border-bottom: 1px solid #646363;
+    margin-top: 98px;
+}
+
+
+.TitleSelector {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -70px;
+    width: 204px;
+    height: 30px;
+    background-color: rgb(36, 39, 41);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 16px;
+    -webkit-border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-topleft:10px;
+    -moz-border-radius-topright:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.brprev {
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.brnext {
+    float: right;    
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.Steps {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 960px;
+    height: 285px;
+    background-color: #E6E3BB;    
+}
+.Steps div{
+    float: left;
+    width: 225px;
+    height: 212px;
+    margin-top: 5px;
+    margin-left: 50px;  
+}
+.Steps div img{
+    display: block;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+.Steps div h1{
+    font-size: 18px;
+    color: #8e4423;
+    text-align: center;    
+}
+.Steps div p{
+    font-size: 13px;
+    color: #7b7a6d;
+    text-align: center;
+}
+.Steps div h2{
+    width: 91px;
+    height: 27px;
+    background-color: #242729;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 27px;
+    -webkit-border-radius:5px;   
+    -moz-border-radius:5px;
+    border-radius:5px;
+    margin: 0 auto;
+    color: #e6e3bb;
+    font-size: 13px;
+    
+    
+}
+
+.SliderBg {
+    width: 960px;
+    height: 242px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #E6E3BB;  
 }
