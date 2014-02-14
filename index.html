@@ -14,7 +14,27 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("#Tabs1").click(function(){
+                $("#LatestPress").show();
+                $("#Testimonials").hide();
+                $("#BlogPosts").hide();
+              });
+              $("#Tabs2").click(function(){
+                $("#LatestPress").hide();
+                $("#Testimonials").show();
+                $("#BlogPosts").hide();
+              });
+                $("#Tabs3").click(function(){
+                $("#LatestPress").hide();
+                $("#Testimonials").hide();
+                $("#BlogPosts").show();
+              });
+            });
+        </script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -74,9 +94,57 @@
                 </div>            
             </div>
             <div class="SliderBg">
-                
-            </div>
-            
+                <div class="Tabs">
+                    <div id="Tabs1">Latest Press</div>
+                    <div id="Tabs2">Testimonials</div>
+                    <div id="Tabs3">Blog Posts</div>
+                </div> 
+                <div class="Sliders">
+                    <img src="img/sliders_prev.png" class="slidersPrev">
+                    <img src="img/sliders_next.png" class="slidersNext">
+                    <div id="LatestPress">
+                        <div>
+                            <h1><img src="img/gizmodo.png">Gizmodo</h1>
+                            <span>Eleifend ni Huthy - 5/20/2011</span>
+                            <p>Donec pellentesque, justo eget imperdiet viverra,lectus mi ornare arcu, non laoreet lacus lacus eleifend.</p>
+                        </div>
+                        <div>
+                            <h1><img src="img/FreelanceSwitch.png">FreelanceSwitch</h1>
+                            <span>Eleifend ni Huthy - 5/3/2011</span>
+                            <p>Pellentesque, justo eget imperdiet viverra,lectus mi ornare arcu.</p>
+                        </div>
+                        <div>
+                            <h1><img src="img/gizmodo.png">Mashable</h1>
+                            <span>Eleifend ni Huthy - 4/20/2011</span>
+                            <p>Justo eget imperdiet viverra,lectus mi ornare arcu, non laoreet lacus lacus eleifend mi ornare lectus or.</p>
+                        </div>                        
+                    </div>
+                    <div id="Testimonials">
+                        <div class="Tablsblock">
+                            <h1><img src="img/mic.png">Jayne W. Smith</h1>
+                            <span>COO - GalaxySmith, Inc.</span>
+                            <p><img src="img/rightlapki.png">Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra.et lorem.                               <img src="img/leftlapki.png"></p>
+                        </div>
+                        <div class="Tablsblock">
+                            <h1><img src="img/mic.png">John M. Doe</h1>
+                            <span>Director of Marketing - Global Corp</span>
+                            <p><img src="img/rightlapki.png">Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra.et lorem.                               <img src="img/leftlapki.png"></p>
+                        </div>
+                    </div>
+                    <div id="BlogPosts">
+                        <div class="Tablsblock">
+                            <h1><img src="img/mic.png">Noyko Artem</h1>
+                            <span>COO - Samsung, Inc.</span>
+                            <p><img src="img/rightlapki.png">Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra.et lorem.                               <img src="img/leftlapki.png"></p>
+                        </div>
+                        <div class="Tablsblock">
+                            <h1><img src="img/mic.png">Stig White</h1>
+                            <span>BBC Racer</span>
+                            <p><img src="img/rightlapki.png">Donec pellentesque, justo eget imperdiet viverra, lectus mi ornare arcu, non laoreet lacus lacus eleifend orci. Nam tincidunt vestibulum lacus nec pharetra.et lorem.                               <img src="img/leftlapki.png"></p>
+                        </div>
+                    </div>                  
+                </div>                
+            </div>          
         </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

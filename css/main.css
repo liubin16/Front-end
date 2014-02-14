@@ -516,19 +516,15 @@ form {
     width: 91px;
     height: 27px;
     background-color: #242729;
-    text-align: center;
-    vertical-align: middle;
+    text-align: center;    
     line-height: 27px;
     -webkit-border-radius:5px;   
     -moz-border-radius:5px;
     border-radius:5px;
     margin: 0 auto;
     color: #e6e3bb;
-    font-size: 13px;
-    
-    
+    font-size: 13px;    
 }
-
 .SliderBg {
     width: 960px;
     height: 242px;
@@ -536,3 +532,120 @@ form {
     margin: 0 auto;
     background-color: #E6E3BB;  
 }
+.SliderBg .Tabs{
+    width: 360px;
+    height: 27px;
+    position: relative;
+    margin: 0 auto;
+}
+.SliderBg .Tabs div{
+    width: 120px;
+    height: 25px;    
+    float: left;
+    -webkit-border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-topleft:10px;
+    -moz-border-radius-topright:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background-color: #242729;
+    color: #5b5b5b;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;    
+}
+.SliderBg .Tabs div:hover{    
+    height: 27px;    
+    color: #e6e3bb;
+    font-size: 14px;    
+    line-height: 27px;
+    margin-top: -2px;
+}
+
+
+.SliderBg .Sliders {
+    width: 920px;
+    height: 180px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #242729;
+    display: block;
+    margin-top: -2px;
+    -webkit-border-radius:10px;   
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+.SliderBg .Sliders .slidersPrev{
+    float: left;
+    margin-left: 20px;
+    margin-top: 74px;
+    
+}
+.SliderBg .Sliders .slidersNext{
+    float: right;
+    margin-right: 20px;
+    margin-top: 74px;
+}
+.SliderBg .Sliders div{
+    width: 740px;
+    height: 120px;
+    position: relative;
+    margin: 0 auto;    
+    top: 30px;
+}
+.SliderBg .Sliders div div{
+    width: 220px;
+    height: 120px;
+    float: left;
+    margin-left: 20px;
+    top: 0;
+}
+.SliderBg .Sliders div div > h1{
+    font-size: 18px;
+    color: #8e4423;
+    margin: 0;
+    padding: 0;
+}
+.SliderBg .Sliders div div > h1 > img{
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+.SliderBg .Sliders div div > span {
+    font-size: 13px;
+    color: #5b5b5b;
+}
+.SliderBg .Sliders div div > p {
+    font-size: 13px;
+    color: #7b7a6d;
+}
+.SliderBg .Sliders div div:hover{
+    cursor: pointer;
+}
+
+.SliderBg .Sliders div div:hover p{
+    color: #e6e3bb;
+    
+}
+.SliderBg .Sliders div div:hover h1{
+    color: #e6e3bb;
+}
+#LatestPress{
+    display: bclok;
+}
+#Testimonials{
+    display: none;
+}
+#BlogPosts{
+    display:  none;
+}
+.SliderBg .Sliders div div.Tablsblock{
+    width: 350px;
+    height: 120px;
+    float: left;
+    top: 0;
+}
+.SliderBg .Sliders div div.Tablsblock > p > img{
+    margin: 0 5px 0 5px;
+}
+
+
